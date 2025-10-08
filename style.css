@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.part1{
+    color: #343a40;
+    background-color: #028482;
+    text-align: center;
+}
+.h{
+     color: #ffffff;
+}
+.b{
+   /*  text-decoration: underline; */
+    color: #ffffff;
+}
+.b:hover{
+    text-decoration: underline;
+    color: #ffffff;
+}
+.part2{
+   margin: 20px;
+  /*  transform: translate(20px, -30px); */
+  animation: translate1 2s ease 0s infinite alternate;
+ /*  animation-name: translate1;
+ animation-duration: 2s;
+ animation-timing-function: ease;
+ animation-iteration-count: infinite; */
+/*   animation-direction: alternate; */
+}
+
+@keyframes translate1 {
+    0%{
+         transform: translate(-20px,10px);
+    }
+   /*  50%{
+        transform: translate(0px, 0px);
+   } */
+    100%{
+         transform: translate(20px,-10px);
+    }
+}
+.button{
+    color: white;
+    background-color: #028482;
+  border-radius: 4px;
+  border-width: 0px;
+  padding: 10px;
+  
+}
+.h1{
+    color: #343a40;
+    font-size: 40px;
+}
+
+.p1{
+     color: #343a40;
+    font-size: 20px;
+}
+.h2{
+    color: #343a40;
+    font-size: 30px;
+}
+.p2{
+     color: #343a40;
+    font-size: 15px;
+}
+.img{
+    height: 200px;
+    margin-left:  70px;
+}
+.button{
+    color: #ffffff;
+}
+.card1{
+    background-color: #aed9e0;
+    color: #343a40;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    animation-name: translate2;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+   /*  animation-iteration-count: infinite; */
+    animation-direction: alternate;
+}
+.card1:hover{
+    transform: translateY(-10px);
+}
+
+@keyframes translate2{
+    0%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translate(-20px);
+    }
+}
